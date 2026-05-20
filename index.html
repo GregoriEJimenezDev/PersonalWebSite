@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gregori Evangelista | Portafolio Personal</title>
+    <meta name="description" content="Sitio web personal y portafolio de Gregori Evangelista. Apasionado por los deportes y la programación.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="portfolio">
+
+    <!-- Capa de Presentación / Header Hero -->
+    <header class="portfolio__hero hero">
+        <div class="hero__container">
+            <div class="hero__profile">
+                <div class="hero__avatar-container">
+                    <img class="hero__avatar" src="profile-placeholder.png" alt="Foto de perfil de Gregori Evangelista" id="profile-img">
+                </div>
+                <div class="hero__details">
+                    <h1 class="hero__title">
+                        <span class="hero__greeting">Hola, mi nombre es</span>
+                        <span class="hero__name">Gregori <span class="hero__surname">Evangelista</span></span>
+                    </h1>
+                    <p class="hero__description">Desarrollador en constante crecimiento con pasión por el deporte y el desarrollo de software limpio, accesible y moderno.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="portfolio__content">
+        <!-- Sección de Información y Hobbies -->
+        <section class="portfolio__section section" id="about">
+            <h2 class="section__title">Sobre Mí & Hobbies</h2>
+            <div class="about-grid">
+                <article class="about-card card">
+                    <h3 class="card__title">¿Quién soy?</h3>
+                    <p class="card__text">
+                        Soy un entusiasta del desarrollo de software ubicado en Villa Faro. Disfruto creando soluciones digitales eficientes, accesibles y estéticamente atractivas, estructurando cada proyecto bajo sólidos estándares de arquitectura.
+                    </p>
+                </article>
+                <article class="about-card card">
+                    <h3 class="card__title">Mis Hobbies</h3>
+                    <ul class="hobbies-list">
+                        <li class="hobbies-list__item">
+                            <span class="hobbies-list__icon">🏀</span>
+                            <span class="hobbies-list__text">Hacer deportes</span>
+                        </li>
+                        <li class="hobbies-list__item">
+                            <span class="hobbies-list__icon">💻</span>
+                            <span class="hobbies-list__text">Practicar coding</span>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Capa de Infraestructura / Sección de Multimedia -->
+        <section class="portfolio__section section" id="media">
+            <h2 class="section__title">Contenido Destacado</h2>
+            <div class="media-container card">
+                <h3 class="card__title card__title--center">Aprendizaje y Motivación</h3>
+                <p class="card__text card__text--center">Un video que refleja la dedicación, constancia y disciplina necesarias tanto en el deporte como en la programación.</p>
+                <div class="media-container__video-wrapper">
+                    <!-- YouTube Responsive iframe Embed -->
+                    <iframe 
+                        id="youtube-player"
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="portfolio__section section" id="contact">
+            <h2 class="section__title">Contacto</h2>
+            <div class="contact-grid">
+                <div class="contact-card card">
+                    <div class="contact-card__icon">📞</div>
+                    <h3 class="contact-card__title">Teléfono</h3>
+                    <a href="tel:8092711236" class="contact-card__link">809-271-1236</a>
+                </div>
+                <div class="contact-card card">
+                    <div class="contact-card__icon">✉️</div>
+                    <h3 class="contact-card__title">Correo Electrónico</h3>
+                    <a href="mailto:gregorievangelista43@gmail.com" class="contact-card__link">gregorievangelista43@gmail.com</a>
+                </div>
+                <div class="contact-card card">
+                    <div class="contact-card__icon">📍</div>
+                    <h3 class="contact-card__title">Dirección</h3>
+                    <p class="contact-card__text">Carretera de Mandinga, Villa Faro</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer con Redes Sociales -->
+    <footer class="portfolio__footer footer">
+        <div class="footer__container">
+            <p class="footer__copyright">&copy; 2026 Gregori Evangelista. Diseñado con CSS puro y HTML semántico.</p>
+            <div class="footer__socials">
+                <a href="https://www.linkedin.com/feed/" class="footer__social-link social-link social-link--linkedin" target="_blank" rel="noopener noreferrer" id="social-linkedin">
+                    LinkedIn
+                </a>
+                <a href="https://www.instagram.com/gregx_ri" class="footer__social-link social-link social-link--instagram" target="_blank" rel="noopener noreferrer" id="social-instagram">
+                    Instagram
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
