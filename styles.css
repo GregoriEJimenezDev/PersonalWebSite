@@ -2,17 +2,17 @@
    DISEÑO EDITORIAL PROFESIONAL (Colección Minimalista Humana)
    ========================================================================== */
 :root {
-    /* Paleta Cromática Orgánica y Elegante */
-    --color-bg: #f9f8f6;            /* Caliza / Yeso cálido */
-    --color-bg-alt: #f3f0ec;        /* Arena fina / Lino */
-    --color-bg-card: #ffffff;       /* Blanco puro */
-    --color-border: #e6e2dd;        /* Piedra suave */
-    --color-border-dark: #2c2a29;   /* Tinta oscura */
+    /* Paleta Cromática Profesional Masculina */
+    --color-bg: #0f1419;            /* Azul oscuro profundo */
+    --color-bg-alt: #1a202c;        /* Gris azulado */
+    --color-bg-card: #242f3f;       /* Charcoal azulado */
+    --color-border: #3d4a5c;        /* Borde azul gris */
+    --color-border-dark: #0d111a;   /* Azul casi negro */
     
     /* Tonos de Contraste Tipográfico */
-    --color-ink-primary: #1c1a19;   /* Negro carbón */
-    --color-ink-secondary: #3c3a37; /* Grafito */
-    --color-ink-muted: #78716c;     /* Cemento / Gris cálido */
+    --color-ink-primary: #ffffff;   /* Blanco puro */
+    --color-ink-secondary: #c7cfd9; /* Gris claro */
+    --color-ink-muted: #8a96a8;     /* Gris azulado muted */
     
     /* Tipografías */
     --font-serif: 'Playfair Display', Georgia, serif;
