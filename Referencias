@@ -1,0 +1,23 @@
+# 1. Arquitectura de CSS y Metodología BEM
+* **Video de Referencia:** [Componentes Limpios con Metodología BEM](https://www.youtube.com) *(Reemplazar por tu link exacto)*
+* **Aplicación en el proyecto:** Se utilizó para estructurar la **Capa de Presentación**. En lugar de escribir CSS desorganizado, el video guio la creación de bloques semánticos independientes (ej. `.profile-card`, `.social-links`), evitando el acoplamiento de estilos y garantizando un *Clean Code* fácil de mantener.
+
+### 2. Diseño Responsivo Adaptable (Grid y Flexbox)
+* **Video de Referencia:** [Aprende CSS Grid y Flexbox en 20 minutos](https://www.youtube.com) *(Reemplazar por tu link exacto)*
+* **Aplicación en el proyecto:** Inspiró la maquetación de la sección de **Hobbies** y la distribución de los datos personales. Flexbox se aplicó para componentes unidimensionales (como la barra de redes sociales) y CSS Grid para la distribución bidimensional de la página completa, asegurando el cumplimiento de las **Heurísticas de Usabilidad** (consistencia y flexibilidad en móviles y escritorio).
+
+### 3. Integración de Video Responsivo (Capa de Infraestructura)
+* **Video de Referencia:** [Cómo hacer que un iFrame de YouTube sea 100% Responsivo](https://www.youtube.com) *(Reemplazar por tu link exacto)*
+* **Aplicación en el proyecto:** Resolver el comportamiento del `<iframe>` de YouTube sin usar JavaScript suele ser un reto. Siguiendo este tutorial, se implementó un contenedor con la propiedad moderna `aspect-ratio: 16 / 9;` (o el truco clásico de `padding-top: 56.25%`), aislando el comportamiento del video externo para que no rompa el flujo visual de la UI en pantallas pequeñas.
+
+---
+
+## 🛠️ Justificación de las Decisiones de Diseño
+
+El análisis de los videos de referencia permitió establecer tres pilares fundamentales para el proyecto:
+
+1. **Separación Estricta de Responsabilidades (Onion/Clean Architecture Conceptual):** El HTML se mantiene "puro" (solo datos e información), mientras que el CSS absorbe toda la carga estética a través de variables globales (`:root`).
+2. **Cero Dependencias:** No se clonaron plantillas ni se usaron frameworks (Bootstrap/Tailwind). Todo el comportamiento responsivo se derivó de las lógicas nativas aprendidas en los tutoriales.
+3. **Optimización de Contraste:** Los tutoriales de diseño visual ayudaron a elegir una paleta de colores con suficiente contraste, garantizando accesibilidad web básica.
+
+---
