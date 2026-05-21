@@ -49,39 +49,11 @@
         </div>
     </header>
 
-    <!-- Layout de Contenido Dividido (Split Layout) -->
+    <!-- Layout de Contenido Moderno -->
     <main class="portfolio-content">
         <div class="portfolio-content__container">
             
-            <!-- Columna Izquierda: Información de Perfil -->
-            <aside class="portfolio-sidebar">
-                <div class="portfolio-sidebar__group">
-                    <h2 class="portfolio-sidebar__heading">Contacto</h2>
-                    <ul class="contact-list">
-                        <li class="contact-list__item">
-                            <span class="contact-list__label">Teléfono</span>
-                            <a href="tel:8092711236" class="contact-list__value">809-271-1236</a>
-                        </li>
-                        <li class="contact-list__item">
-                            <span class="contact-list__label">Correo</span>
-                            <a href="mailto:gregorievangelista43@gmail.com" class="contact-list__value">gregorievangelista43@gmail.com</a>
-                        </li>
-                        <li class="contact-list__item">
-                            <span class="contact-list__label">Ubicación</span>
-                            <span class="contact-list__value contact-list__value--static">Carretera de Mandinga, Villa Faro</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="portfolio-sidebar__group">
-                    <h2 class="portfolio-sidebar__heading">Pasiones</h2>
-                    <p class="portfolio-sidebar__text">
-                        Encuentro el equilibrio y la disciplina dedicando mis horas libres a realizar deportes y practicar coding constante, explorando nuevas tecnologías y arquitecturas frontend.
-                    </p>
-                </div>
-            </aside>
-
-            <!-- Columna Derecha: Contenido Multimedia Destacado -->
+            <!-- Video Principal en la parte superior -->
             <section class="portfolio-main" id="media">
                 <div class="portfolio-main__section">
                     <h2 class="portfolio-main__title">Contenido Destacado</h2>
@@ -104,6 +76,39 @@
                             <span class="video-container__badge">YouTube</span>
                             <span class="video-container__description">Disciplina y constancia en el desarrollo tecnológico.</span>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tarjetas de Información Organizadas -->
+            <section class="portfolio-cards">
+                <div class="portfolio-cards__grid">
+                    <!-- Card de Contacto -->
+                    <div class="info-card">
+                        <div class="info-card__icon">📞</div>
+                        <h3 class="info-card__title">Teléfono</h3>
+                        <a href="tel:8092711236" class="info-card__link">809-271-1236</a>
+                    </div>
+
+                    <!-- Card de Correo -->
+                    <div class="info-card">
+                        <div class="info-card__icon">✉️</div>
+                        <h3 class="info-card__title">Correo</h3>
+                        <a href="mailto:gregorievangelista43@gmail.com" class="info-card__link">gregorievangelista43@gmail.com</a>
+                    </div>
+
+                    <!-- Card de Ubicación -->
+                    <div class="info-card">
+                        <div class="info-card__icon">📍</div>
+                        <h3 class="info-card__title">Ubicación</h3>
+                        <p class="info-card__text">Carretera de Mandinga, Villa Faro</p>
+                    </div>
+
+                    <!-- Card de Pasiones -->
+                    <div class="info-card">
+                        <div class="info-card__icon">⚽</div>
+                        <h3 class="info-card__title">Pasiones</h3>
+                        <p class="info-card__text">Deportes, Coding y Arquitectura Limpia</p>
                     </div>
                 </div>
             </section>
